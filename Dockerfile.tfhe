@@ -18,7 +18,7 @@ RUN apt-get update -qq \
     make
 
 # clone and compile TFHE library
-RUN git clone https://github.com/tfhe/tfhe /tfhe \
+RUN git clone https://github.com/MingfeiYu/tfhe /tfhe \
  && cd tfhe \
  && make
 
