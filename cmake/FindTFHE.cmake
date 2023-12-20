@@ -7,7 +7,7 @@ find_path(
 
 find_library(
   TFHE_LIBRARIES
-  libtfhe-spqlios-avx.so
+	libtfhe-nayuki-portable.dylib
   PATHS ${TFHE_PATH}/build/libtfhe
 )
 
