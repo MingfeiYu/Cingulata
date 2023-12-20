@@ -109,6 +109,6 @@ const typename list_t::elem_t& CSlice<list_t>::operator[](const unsigned idx) co
 
 #include <ci_bit_vector.hxx>
 
-template class Slice<CiBitVector>;
-template class CSlice<CiBitVector>;
+template class cingulata::Slice<CiBitVector>;
+template class cingulata::CSlice<CiBitVector>;
 
